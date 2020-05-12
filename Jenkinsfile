@@ -17,12 +17,14 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Test'
+        sleep 20
       }
     }
 
     stage('Prod') {
       steps {
         echo 'Prod'
+        sleep 30
       }
     }
 
