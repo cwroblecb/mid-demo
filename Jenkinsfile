@@ -21,7 +21,7 @@ pipeline {
 
     stage('Prod') {
       steps {
-        sh 'Prod'
+        echo 'Prod'
       }
     }
 
